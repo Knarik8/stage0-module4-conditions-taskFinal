@@ -5,7 +5,8 @@ public class BitwiseValuesSwap {
         first = first ^ second; //7
         second = first ^ second; // 4
         first = first ^ second; // 3
-        System.out.println(first+","+second);
+        System.out.println(first);
+        System.out.println(second);
     }
     public static void main(String[] args){
         swap(4, 3);
